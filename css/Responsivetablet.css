@@ -1,0 +1,59 @@
+@media screen and (max-width:1024px){
+    /*nav*/
+    header i {
+        display:block!important;
+        align-self:baseline
+    }
+    header nav ul{display:none}
+
+    /*main*/
+    #section1 .grid2, #intervenants .grid2, .gridimgright, .gridimgleft{
+        grid-template-columns: 1fr
+    }
+    #section1 .gridimage, #intervenants .gridimage{
+        grid-template-columns: 1fr 10fr
+    }
+    #intervenants .grid2{
+        gap:3rem 
+    }
+    .width50{
+        width:75%
+    }
+
+    /*box*/
+    .interv{
+        padding:2rem
+    }
+    .gridimgright img, .gridimgleft img{
+        order:1;
+        width:50%;
+        margin:auto
+    }
+    .gridimgright article, .gridimgleft article{
+        order:2
+    }
+    
+    .gridimgright .button, .gridimgleft .button{
+        order:3;
+    }
+    .margup{
+        margin:2rem auto 0 auto
+    }
+    
+    .roundedleft, .roundedright{border-radius:.5rem}
+
+    #ensaavoirplus .width70{
+        width:90%
+    }
+
+    /*form*/
+    form .grid2{
+        grid-template-columns: repeat(2, 1fr)!important;
+        gap:2rem!important
+    }
+
+    /*footer*/
+    footer .maxwidth{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

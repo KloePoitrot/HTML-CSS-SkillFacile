@@ -1,0 +1,31 @@
+@import url('header.css');
+@import url('footer.css');
+@import url('format.css');
+@import url('main.css');
+@import url('responsivetablet.css');
+@import url('responsivephone.css');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;800&family=Oswald:wght@200;400;600&family=Pacifico&display=swap');
+
+*{margin:0}
+a{text-decoration: none;}
+body{
+    color:var(--blue);
+    font-family:var(--opensans);
+    font-size:16px
+}
+body p{margin:1.3rem 0}
+img{width:100%}
+
+:root{
+    /*colors*/
+    --grey:#363450;
+    --green:#30CD8A;
+    --red:#E34E67;
+    --blue:#423B73;
+    --indigo:#1E1D31;
+    /*fonts*/
+    --opensans: 'Open Sans', sans-serif;
+    --oswald: 'Oswald', sans-serif;
+    --pacifico: 'Pacifico', cursive;
+    --quicksand: 'Quicksand', sans-serif;
+}

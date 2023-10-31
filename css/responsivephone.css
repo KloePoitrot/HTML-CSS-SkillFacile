@@ -1,0 +1,37 @@
+@media screen and (max-width:767px){
+    body{font-size:14px}
+
+    header img{
+        width:200px
+    }
+    .grid2{
+        grid-template-columns: 1fr;
+        gap:5rem
+    }
+    footer .maxwidth, form .grid2{
+        grid-template-columns: 1fr!important;
+        gap:3rem
+    }
+
+    
+    .gridimgright img, .gridimgleft img{
+        width:100%;
+        margin-top:.5rem
+    }
+
+    #section1 .gridimage, #intervenants .gridimage{
+        grid-template-columns: 1fr 5fr!important
+    }
+
+    .width50, .width70{
+        width:100%
+    }
+
+    .header1{font-size:28px!important}
+    .header2{font-size:22px!important}
+    .headerpacifico{font-size:16px!important}
+
+    .gridformres{
+        grid-column: span 2
+    }
+}

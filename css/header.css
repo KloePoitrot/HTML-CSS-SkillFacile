@@ -1,0 +1,40 @@
+header{
+    display:flex;
+    justify-content:space-between;
+    max-width:1440px;
+    margin:auto;
+    padding:1rem;
+}
+header img{
+    width:300px;
+    padding:2rem 0
+}
+
+nav{
+    align-self:center
+}
+
+nav ul{
+    list-style: none;
+    padding:0;
+    text-transform: capitalize;
+    display:flex;
+    gap:40px
+}
+nav li{
+    font-family:var(--opensans);
+    font-size:16px;
+    font-weight:600
+}
+
+nav a{
+    color:var(--blue);
+    transition:ease-in .5s
+}
+nav a:hover{
+    opacity:.5;
+    transition:ease-in .1s
+}
+header i{
+    display:none!important
+}
